@@ -1,0 +1,2 @@
+# CW7_Recognizing_Patterns_and_decorator
+CSCI 352 assignment
