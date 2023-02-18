@@ -12,8 +12,8 @@ namespace DecoratorPattern
 
         override public void draw()
         {
+            Console.WriteLine("I'm a scroll decorator, holding a: ");
             base.draw();
-            Console.WriteLine(this.GetType().Name + " has been drawn.");
         }
     }
 }

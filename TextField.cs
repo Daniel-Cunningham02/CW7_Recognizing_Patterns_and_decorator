@@ -19,7 +19,7 @@ namespace DecoratorPattern
 
         public void draw()
         {
-            Console.WriteLine("TextField(" + width + ", " + height + ") has been drawn.");
+            Console.WriteLine("TextField of 20 by 30.");
         }
     }
 }

@@ -9,7 +9,8 @@ namespace DecoratorPattern
         public static void Main(string[] args)
         {
             TextField t = new TextField(20, 30);
-            BorderDecorator border = new BorderDecorator(t);
+            OpacityDecorator o = new OpacityDecorator(t);
+            BorderDecorator border = new BorderDecorator(o);
             ScrollDecorator scroll = new ScrollDecorator(border);
             BorderDecorator border2 = new BorderDecorator(scroll);
             ScrollDecorator scroll2 = new ScrollDecorator(border2);
